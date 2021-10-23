@@ -25,10 +25,10 @@ chmod +x clash-linux-mips-softfloat-20210310
 mv clash-linux-mips-softfloat-20210310 /etc/clash/clashtun/clash
 
 echo "--------------------------------------------------------------------Download dtun (premium core)--------------------------------------------------------------------"
-wget -O /etc/clash/dtun/clash-linux-mips-softfloat-2021.07.03.gz https://github.com/Dreamacro/clash/releases/download/premium/clash-linux-mips-softfloat-2021.07.03.gz
+wget -O /etc/clash/dtun/clash-linux-mips-softfloat-2021.07.03.gz https://github.com/Dreamacro/clash/releases/download/v1.7.1/clash-linux-mipsle-softfloat-v1.7.1.gz
 cd /etc/clash/dtun/
-gunzip clash-linux-mips-softfloat-2021.07.03.gz
-chmod +x clash-linux-mips-softfloat-2021.07.03
-mv clash-linux-mips-softfloat-2021.07.03 /etc/clash/dtun/clash
+gunzip clash-linux-mipsle-softfloat-v1.7.1.gz
+chmod +x clash-linux-mipsle-softfloat-v1.7.1
+mv clash-linux-mipsle-softfloat-v1.7.1 /etc/clash/dtun/clash
 
 echo "--------------------------------------------------------------------INsatall Done--------------------------------------------------------------------"
