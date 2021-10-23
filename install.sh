@@ -29,6 +29,6 @@ wget -O /etc/clash/dtun/clash-linux-mips-softfloat-2021.07.03.gz https://github.
 cd /etc/clash/dtun/
 gunzip clash-linux-mips-softfloat-2021.07.03.gz
 chmod +x clash-linux-mips-softfloat-2021.07.03
-mv clash-linux-mips-softfloat-20210310 /etc/clash/dtun/clash
+mv clash-linux-mips-softfloat-2021.07.03 /etc/clash/dtun/clash
 
 echo "--------------------------------------------------------------------INsatall Done--------------------------------------------------------------------"
